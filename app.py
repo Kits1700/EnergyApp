@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.secret_key = b'\xcc^\x91\xea\x17-\xd0W\x03\xa7\xf8J0\xac8\xc5'
 
 # Database
-client = pymongo.MongoClient("mongodb+srv://test:rk250397@cluster0.50bck.mongodb.net/waterproj?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://keerthana17:Artist17@cluster0.iku0i.mongodb.net/waterEnergy?retryWrites=true&w=majority")
 db = client.test
 # db = client.user_login_system
 
